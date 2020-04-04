@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Draggable, Moveable and Resizable DIV using jQuery by Jay Amin</title>
+    
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>   
+</head>
+<body>
+    <div>
+        <img src="jay2.jpg" width="250px" alt="">
+        
+    </div>
+    <div id="divResize" style="width:250px">
+        <!-- <img src="glasses-png-transparent-25.png" width="100%" alt=""> -->
+        <img src="glass2.png" width="100%" alt="">
+    </div>
+</body>
+
+<script>
+   $(document).ready(function() {
+        $(function() { $("#divResize").draggable().resizable(); });
+    });
+</script>
+</html>
